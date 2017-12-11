@@ -26,3 +26,11 @@ v1.2.5:
   date: "2017-08-30"
   new: 
   enhancements: Enabled exporting
+v1.2.6:
+  date: "2017-12-01"
+  new: Button for links that can be used for document chaining
+  enhancements: 
+v1.2.7:
+  date: "2017-12-11"
+  new:  Single date picker
+  enhancements: Fixed a bug where wrong date were selected when user was in another time zone 
