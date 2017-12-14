@@ -34,3 +34,11 @@ v1.2.7:
   date: "2017-12-11"
   new:  Single date picker
   enhancements: Fixed a bug where wrong date were selected when user was in another time zone 
+v1.2.8:
+  date: "2017-12-14"
+  new: changed default value for show list labels to true.
+  enhancements: 
+v1.2.9:
+  date: "2017-12-14"
+  new: changed default value for align list labels to top.
+  enhancements: 
