@@ -37,10 +37,10 @@
 				</input>
 			</label>
 		</div>
-		<div ng-if="field.type == 'LINK'" class="lui-buttongroup" style="overflow: hidden;" >
-			<button class="lui-button LINK--{{field.clickType}}" 
-			  ng-click="activateLink(field.url,field.openType, field.clickType)">
-			 <span>{{field.linkName}}</span>
+		<div ng-if="field.listType == 'BUTTON'" class="lui-buttongroup" style="overflow: hidden;" >
+			<button class="lui-button BUTTONTYPE--{{field.clickType}}" 
+			  ng-click="field.type=='LINK' ? activateLink(field.url,field.openType, field.clickType) : exportData(field.exportId, field.clickType)">
+			 <span>{{field.buttonName}}</span>
 			</button>
 		</div>
 	</div>

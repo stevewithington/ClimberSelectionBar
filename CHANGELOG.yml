@@ -26,3 +26,24 @@ v1.2.5:
   date: "2017-08-30"
   new: 
   enhancements: Enabled exporting
+v1.2.6:
+  date: "2017-12-01"
+  new: Button for links that can be used for document chaining
+  enhancements: 
+v1.2.7:
+  date: "2017-12-11"
+  new:  Single date picker
+  enhancements: Fixed a bug where wrong date were selected when user was in another time zone 
+v1.2.8:
+  date: "2017-12-14"
+  new: changed default value for show list labels to true.
+  enhancements: 
+v1.2.9:
+  date: "2017-12-14"
+  new: changed default value for align list labels to top.
+  enhancements: 
+v1.3:
+  date: "2018-01-12"
+  new: Added export button
+       Option to hide snapshot/maximize icon
+  enhancements: 
