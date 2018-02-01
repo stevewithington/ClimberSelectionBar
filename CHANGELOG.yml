@@ -47,3 +47,10 @@ v1.3:
   new: Added export button
        Option to hide snapshot/maximize icon
   enhancements: 
+v1.4:
+  date: "2018-02-01"
+  new: Added smaller conatiner in mobile mode
+  enhancements: Fixed bug with weekdays not showing properly
+  Fixed bug date ranges Last Week and This Week always started on a Sunday
+  Fixed bug with button not showing
+  Fixed bug daterangepicker element not removed and showing in mobile mode
