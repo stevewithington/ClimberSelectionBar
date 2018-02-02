@@ -1,5 +1,6 @@
 # Climber Selection Bar
-> Horizontal selection bar with initial selection capabilities. Selections through both click and swipes.
+> Horizontal selection bar with initial selection capabilities. Selections through both click and swipes. The Selection bar also handle setting variables and showing flags that can be used for selections. Typical use case is as a top bar with Year, Month, Country selections and variable settings for currencies and budget/forcast alternatives. 
+> See more in this video: https://youtu.be/4fxrphADRKw
 
 ## Purpose and Description
 The selection bar that also serves as a "trigger" for initial selections. For feature list see screenshots below.
@@ -48,6 +49,23 @@ Works only with Qlik Sense 3.0 and up!!
 ![Alt text](./screenshots/screenshot_align_centerspread.PNG?raw=true "Align Center Spread")
 5. Stack - All lists on top of eachother. (Works when using more than one grid height of the selection bar. Also good for smaller screens.)
 ![Alt text](./screenshots/screenshot_align_stacked.PNG?raw=true "Align Stacked")
+
+## Document Chaining
+
+1. Set up this in your load script:
+----------------------------------
+>//Application ID (insert your app ID)<br />
+LET vL.ApplicationName= 'app/7bd83989-1767-4311-9948-aade7a8b3a1c/';<br />
+//Sheet ID (insert your sheet ID)<br />
+LET vL.Sheet = 'sheet/5e07ada0-03aa-4708-8c12-4e03f68bce75/state/analysis';
+//Selections<br />
+SET vL.Options = '/options/clearselections/select/' & GetCurrentSelections(']/select/','/[','];[') & ']';
+//Final URL<br />
+SET vL.URL_DocumentChaining = vL.ApplicationName & vL.Sheet & $(vL.Options);
+--------------------------------
+
+2. Use this variable in the link setting of the extension<br />
+>$(vL.URL_DocumentChaining)
 
 ## Climber Extensions
 Like this extension? Check out the other Climber made extensions below.

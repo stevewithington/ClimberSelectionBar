@@ -49,8 +49,14 @@ v1.3:
   enhancements: 
 v1.4:
   date: "2018-02-01"
-  new: Added smaller conatiner in mobile mode
-  enhancements: Fixed bug with weekdays not showing properly
-  Fixed bug date ranges Last Week and This Week always started on a Sunday
-  Fixed bug with button not showing
-  Fixed bug daterangepicker element not removed and showing in mobile mode
+  new: Added smaller container in mobile mode
+  enhancements: 
+      Fixed bug with weekdays not showing properly
+      Fixed bug date ranges Last Week and This Week always started on a Sunday
+      Fixed bug with button not showing
+      Fixed bug daterangepicker element not removed and showing in mobile
+ v1.4.1:
+  date: "2018-02-02"
+  new: 
+  enhancements: 
+      Updated readme
