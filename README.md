@@ -2,6 +2,8 @@
 > Horizontal selection bar with initial selection capabilities. Selections through both click and swipes. The Selection bar also handle setting variables and showing flags that can be used for selections. Typical use case is as a top bar with Year, Month, Country selections and variable settings for currencies and budget/forcast alternatives. 
 > See more in this video: https://youtu.be/4fxrphADRKw
 
+***Tested from Qlik Sense June 2017 (in the initial release of June 2017, extensions load slow. It's fixed in patch 1 )***
+
 ## Purpose and Description
 The selection bar that also serves as a "trigger" for initial selections. For feature list see screenshots below.
 
