@@ -95,5 +95,12 @@ v1.4:
   new: 
   enhancements: 
       Snapshot fix
+  
+  v1.5.2:
+  date: "2018-07-06"
+  new: 
+  enhancements: 
+      Issue 45 bug fix "Initial selection not working properly with Button added."
+
 
 
