@@ -102,5 +102,9 @@ v1.4:
   enhancements: 
       Issue 45 bug fix "Initial selection not working properly with Button added."
 
-
+  v1.5.3:
+  date: "2018-08-15"
+  new: 
+  enhancements: 
+      Issue 74 bug fix "Daterangepicker is shown in mashup on init"
 

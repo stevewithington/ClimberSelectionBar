@@ -3,7 +3,7 @@
 	"description" : "A horizontal selection bar for Qlik Sense. Uses fields, variables and flags.",
 	"icon" : "filterpane",
 	"type" : "visualization",
-	"version": "1.5.2",
+	"version": "1.5.3",
 	"preview" : "climberselectionbar.jpg",
 	"author": "Karl Fredberg Sjöstrand",
 	"dependencies" : { "qlik-sense" : ">=3.0.x" }
