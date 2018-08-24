@@ -1,3 +1,8 @@
+# Register for our extensions event on Sept 19th in London!
+Want to know how our extensions can bring unprecedented value to your business? Join the Climber and VizLib Extensions event in London on Sept 19th! A must event for any business professional. Learn about Qlik’s Trusted Extension Developer program and hear from some of our clients how they are utilising our supported extensions to bring unprecedented value to their businesses. <a href="https://goo.gl/XAeqv1">Register here</a>
+
+<a href="https://goo.gl/XAeqv1"><img src="./screenshots/Event_Sep 19_London.jpg?raw=true" alt="Custom Report" /></a>
+
 # Climber Selection Bar
 <a href="https://github.com/ClimberAB/ClimberSelectionBar/releases/download/v1.5.3/cl-horizontalselectionbar_v1.5.3.zip" target="_blank"><img src="./screenshots/downloadbutton.png?raw=true" 
 alt="Download latest release" width="400" height="40" border="0" /></a>  
