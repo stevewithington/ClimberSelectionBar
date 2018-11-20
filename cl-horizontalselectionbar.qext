@@ -2,6 +2,11 @@
 	"name" : "Climber Selection Bar",
 	"description" : "A horizontal selection bar for Qlik Sense. Uses fields, variables and flags.",
 	"icon" : "filterpane",
+	"bundle": {
+    		"id": "cl-self-service-extensions",
+    		"name": "Climber Self-Service Extensions",
+    		"description": "Climber Self-Service Extensions. Learn more at www.climberextensions.com."
+  	},
 	"type" : "visualization",
 	"version": "1.5.3",
 	"preview" : "climberselectionbar.jpg",
