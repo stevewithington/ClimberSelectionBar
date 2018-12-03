@@ -108,3 +108,18 @@ v1.4:
   enhancements: 
       Issue 74 bug fix "Daterangepicker is shown in mashup on init"
 
+  v1.5.4:
+  date: "2018-11-19"
+  new: 
+  enhancements: 
+      Added EU flag
+  
+  v1.6.0:
+  date: "2018-12-03"
+  new: 
+  enhancements: 
+    Support for November 2018
+    Always one selected
+    Bundle information
+
+
